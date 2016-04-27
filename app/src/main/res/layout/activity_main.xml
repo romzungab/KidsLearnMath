@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.romelyn.kidslearnmath.MainActivity"
+    android:background="#8bec9b"
+    android:gravity="top">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="LEARN MATH"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="40dp"
+        android:textColor="#f31212"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ADDITION"
+            android:id="@+id/btnTest"
+            android:layout_marginTop="108dp"
+            android:layout_alignParentTop="true"
+            android:textSize="28dp"
+            android:layout_alignStart="@+id/btnSub"
+            android:layout_alignEnd="@+id/btnSub"
+            android:padding="20dp"
+            android:textColor="#f70d0d"
+            android:onClick="btnAdd" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SUBTRACTION"
+            android:id="@+id/btnSub"
+            android:layout_below="@+id/btnTest"
+            android:textSize="28dp"
+            android:layout_alignStart="@+id/btnMul"
+            android:layout_alignEnd="@+id/btnMul"
+            android:padding="20dp"
+            android:textColor="#f70d0d"
+            android:onClick="btnSub" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MULTIPLICATION"
+            android:id="@+id/btnMul"
+            android:layout_below="@+id/btnSub"
+            android:layout_centerHorizontal="true"
+            android:textSize="28dp"
+            android:padding="20dp"
+            android:textColor="#f70d0d"
+            android:onClick="btnMul" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DIVISION"
+            android:id="@+id/btnDiv"
+            android:layout_below="@+id/btnMul"
+            android:textSize="28dp"
+            android:layout_alignStart="@+id/btnMul"
+            android:layout_alignEnd="@+id/btnMul"
+            android:padding="20dp"
+            android:textColor="#f70d0d"
+            android:onClick="btnDiv" />
+    </LinearLayout>
+
+</LinearLayout>

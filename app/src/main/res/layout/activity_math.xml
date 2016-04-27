@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.romelyn.kidslearnmath.MainActivity"
+    android:background="#8bec9b"
+    android:gravity="top"
+    android:padding="20dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="LEARN Addition"
+        android:id="@+id/tvOperation"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="40dp"
+        android:textColor="#f31212"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="20dp">
+
+        <Button
+            android:layout_width="325dp"
+            android:layout_height="wrap_content"
+            android:text="Test My Knowledge"
+            android:id="@+id/btnTest"
+            android:layout_gravity="center_horizontal"
+            android:textSize="25dp"
+            android:textColor="#fa0d0d"
+            android:background="#f9cacf"
+            android:onClick="btnTest" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="20dp">
+        <Button
+            android:layout_width="325dp"
+            android:layout_height="wrap_content"
+            android:text="Start from 1st"
+            android:id="@+id/btnStart"
+            android:layout_gravity="center_horizontal"
+            android:textSize="25dp"
+            android:textColor="#fa0d0d"
+            android:background="#f9cacf"
+            android:onClick="btnStart" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+        <Button
+            android:layout_width="325dp"
+            android:layout_height="wrap_content"
+            android:text="Go to:"
+            android:id="@+id/btnGoTo"
+            android:layout_gravity="center_horizontal"
+            android:textSize="25dp"
+            android:textColor="#fa0d0d"
+            android:background="#f9cacf" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+        <Button
+            android:layout_width="325dp"
+            android:layout_height="wrap_content"
+            android:text="Home"
+            android:id="@+id/btnGoHome"
+            android:layout_gravity="center_horizontal"
+            android:textSize="25dp"
+            android:textColor="#fa0d0d"
+            android:background="#f9cacf"
+            android:onClick="btnGoHome" />
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
